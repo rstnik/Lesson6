@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: var(--dark);
+    font-family: var(--font);
+    font-size: var(--size);
+    font-weight: var(--regular);
+}
+
+:root{
+    --accent: #34547A;
+    --silver: #EEEFF1;
+    --gray: #727272;
+    --dark: #000;
+    --white: #fff;
+    --size: 16px;
+    --medium: 500;
+    --regular: 400;
+    --font: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: var(--silver);
+}
+
+.container{
+    margin: 0 875px 0 399px;
+}
+
+.header{
+    padding-top: 79px;
+    padding-bottom: 141px ;
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+.nav>a>span{
+    color: var(--accent);
+    font-weight: var(--medium);
+}
+
+.header-title{
+    margin-top: 150px;
+    font-size: 48px;
+    font-weight: var(--medium);
+}
+
+.header-subtitle{
+    margin-top: 60px;
+    color: var(--gray);
+    line-height: 26.25px;
+}
+
+.header-btn{
+    margin-top: 84px;
+}
+
+.header-button{
+    color: var(--white);
+    background-color: var(--accent);
+    text-align: center;
+    padding: 20px 40px;
+}
+
+.about{
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+
+.about-info{
+    width: 540px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-title, .video-title{
+font-size: 32px;
+font-weight: var(--medium);
+line-height: 37.5px;
+text-align: center;
+}
+
+.about-subtitle, .video-subtitle{
+color: var(--gray);
+text-align: center;
+line-height: 26.25px;
+}
+
+.numbers{
+    padding: 100px 0;
+    background-color: var(--accent);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+
+.numbers-item{
+    display: flex;
+    gap: 20px;
+}
+
+.item-text-title{
+    color: var(--white);
+    font-weight: var(--medium);
+}
+
+.item-text-subtitle{
+    color: var(--white);
+    font-weight: var(--regular);
+}
+
+.video{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.video-info{
+    margin-bottom: 57px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 50px;
+}
+
+.footer{
+    background-color: var(--accent);
+    padding: 50px 0;
+}
+
+.footer-title{
+    color: var(--white);
+    font-weight: var(--medium);
+    font-size: 21px;
+    
+}
+
+.footer-subtitle{
+    color: var(--white);
+    font-size: 13px;
+    margin-top: 20px;
+    
+}
